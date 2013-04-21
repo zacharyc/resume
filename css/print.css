@@ -1,0 +1,16 @@
+a {
+    color:#222222;
+}
+
+.job h3 {
+	padding-top: 1px;
+	margin-top: 1px;
+}
+
+#onlineFooter {
+	display:none;
+}
+#offlineFooter {
+	font-size: .8em;
+    display:block;
+}

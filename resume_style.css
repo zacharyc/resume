@@ -1,0 +1,213 @@
+/* @group Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* @end */
+
+/* My Styles */
+
+body {
+	background: #777;
+	font: .9em "Times New Roman", Times, serif;
+}
+
+div.hresume {
+	margin: 0 auto;
+	width: 800px;
+	padding: 10px;
+	background: #eee;
+	border-right: 5px solid #ccc;
+	border-left: 5px solid #ccc;
+}
+
+div#zachary-name{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+h1.fullname a {
+	color: gray;
+	font-size: 2.5em;
+	font-variant: small-caps;
+}
+
+div.date-range {
+	float: right;
+	font-size: .9em;
+}
+
+div.education a.fn {
+	font-size: 1.1em;
+	display: block;
+}
+
+li.experience {
+	padding-bottom: 1em;
+}
+
+h2 {
+	padding-top: 10px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+ul {
+	padding-left: 20px;
+	list-style-type: square;
+	font-size: .9em;
+}
+
+.fn, .org {
+	font-variant: small-caps;
+}
+
+a {
+	color: #222;
+}
+
+.title {
+	color: #666;
+	font-weight: bold;
+	display: block;
+}
+
+/* @group Address Styles */
+
+.addr {
+	font-style: italic;
+}
+
+.country-name {
+	display: none;
+}
+
+.street-address {
+	display: none;
+}
+
+.postal-code {
+	display: none;
+}
+
+.extended-address {
+	display: none;
+}
+
+div.tel {
+	display: none;
+}
+
+div#zachary-name .street-address {
+	display: inline;
+}
+
+div#zachary-name .country-name {
+	display: inline;
+}
+
+div#zachary-name .postal-code {
+	display: inline;
+}
+
+/* @end */
+
+h2 {
+	float: left;
+	width: 180px;
+	padding: 0 10px 0 10px;
+}
+
+.vcalendar {
+	padding-left: 200px;
+	/*width: 450px; */
+	padding-bottom: 10px;
+}
+
+p.objective {
+	padding-left: 200px;
+	padding-bottom: 10px;
+	width: 430px;
+}
+
+span.summary {
+	display: block;
+	width: 430px;
+}
+
+ul.summary {
+	width: 430px;
+}
+
+p.summary {
+	width: 430px;
+}
+
+div.skills {
+	padding-left: 200px;
+	width: 430px;
+	padding-bottom: 10px;
+}
+
+div.skills h3 {
+	font-style: italic;
+}
+
+div.skills ol {
+	padding-left: 20px;
+	list-style-type: square;
+	padding-bottom: 5px;
+}
